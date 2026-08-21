@@ -21,7 +21,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    gap: 108px;
+    gap: 64px;
     width: 100%;
     min-height: 100dvh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -124,14 +124,26 @@ nav > * {
 main {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 6rem;
     width: 100%;
-    outline: 1px solid black;
 }
+
+#prompt {
+    margin: 0 auto;
+    font-size: 1.25rem;
+    margin-bottom: -2rem;
+}
+
+#prompt span {
+    font-size: 1.5rem;
+}
+
+
+/* sections */
 
 section {
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 .odd {
@@ -146,9 +158,28 @@ section {
     background-color: var(--section-even);
 }
 
+.section-body {
+    padding: 2rem 3rem;
+    padding-right: 16rem;
+}
+
+.section-subheading {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.section-text { 
+    font-size: 1.15rem;
+}
+
 section img {
     height: 100%;
     width: 800px;
     object-fit: cover;
     background-color: black;
 }
+
+
+
+
+
