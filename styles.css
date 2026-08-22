@@ -3,7 +3,7 @@
     --section-even: hsl(33, 29%, 94%);
     --header-main: hsl(210, 33%, 9%);
     --header-font-main: hsl(0, 0%, 87%);
-    --header-main-transparent: hsla(210, 33%, 9%, 85%);
+    --header-main-transparent: hsla(210, 33%, 9%, 87.5%);
     --header-font-secondary: hsl(54, 100%, 49%);
 }
 
@@ -131,8 +131,8 @@ nav > * {
     position: absolute;
     left: 2rem;
     bottom: 0;
-    width: 300px;
-    height: 75px;
+    width: max-content;
+    padding: 0.15rem 1rem;
     background-color: var(--header-main-transparent);
     font-size: 48px;
     font-weight: 700;
